@@ -29,6 +29,10 @@ func tasks() (tasks []Task) {
 			TaskTitle: "Simple \"Crypt\" tool",
 			TaskDesc:  "You are to write a simple \"Crypt\" tool that someone can then use to \"encrypt\" and \"decrypt\" a text file.\n\nThe user should run the application with a password and a text-file as its two arguments. The application should the produce another text-file containing the \"encrypted\" content. The content of this new text-file should be un-readable to the human eye. The application should also be able to \"decrypt\" this new file (with the file and password as arguments) and produce a text-file with the correct original content in it.",
 		},
+		Task{
+			TaskTitle: "Compiler",
+			TaskDesc: "You are to write a simple compiler. The user should be able to write Hello World on an appropiate interface (depending on language). Maybe use this as inspiration: https://github.com/thejameskyle/the-super-tiny-compiler",
+		},
 	}
 	return
 }
