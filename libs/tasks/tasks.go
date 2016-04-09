@@ -33,6 +33,22 @@ func tasks() (tasks []Task) {
 			TaskTitle: "Compiler",
 			TaskDesc: "You are to write a simple compiler. The user should be able to write Hello World on an appropiate interface (depending on language). Maybe use this as inspiration: https://github.com/thejameskyle/the-super-tiny-compiler",
 		},
+		Task{
+			TaskTitle: "Morse code converter",
+			TaskDesc: "Write a program that automatically converts English text to Morse code and vice versa.",
+		},
+		Task{
+			TaskTitle: "Pong!",
+			TaskDesc: "Write a single-play pong game",
+		},
+		Task{
+			TaskTitle: "Crude AI",
+			TaskDesc: "Write a program that plays Rock, Paper, Scissors better than random against a human. Try to exploit that humans are very bad at generating random numbers.",
+		},
+		Task{
+			TaskTitle: "Battle ship",
+			TaskDesc: "Write a program that plays Battle Ship against human opponents. It takes coordinates as input and outputs whether that was a hit or not and its own shot’s coordinates.",
+		},
 	}
 	return
 }
