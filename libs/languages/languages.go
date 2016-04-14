@@ -73,6 +73,14 @@ func languages() (langs []Language) {
 			LanguageName:   "Dart",
 			LanguageDocURL: "https://www.dartlang.org/docs/",
 		},
+		Language{
+			LanguageName:   "Scala",
+			LanguageDocURL: "http://www.scala-lang.org/",
+		},
+		Language{
+			LanguageName:   "F#",
+			LanguageDocURL: "http://fsharp.org/",
+		},
 	}
 	return
 }
